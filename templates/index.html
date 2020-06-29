@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Authentication System</title>
+</head>
+<body>
+    {% block content %}
+        <h1>Welcome Home,from Homepage</h1>
+        {%if user.is_authenticated %}
+           <!---- <a herf="{% url 'logout' %}">Logout</a>
+            
+            {% else %}
+            <a herf="{% url 'login_url' %}">Login</a>
+            <a herf="{% url 'register_url' %}">Register</a>
+        
+            {% endif %}-->
+           
+
+    {% endblock %}
+</body>
+</html>
