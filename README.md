@@ -1,0 +1,2 @@
+# SimpleDjangoProject
+Register and Login
